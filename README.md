@@ -1,6 +1,6 @@
 # JUnit 実践入門
   <p>下記には書籍「JUnit実践入門」の各章の要約を記載します。</p>
-  <p>テスト対象のプログラムとテストコードは /Tutrial-JUnitに格納しています。</p>
+  <p>テスト対象のプログラムとテストコードは <strong>practice_junit/Turial-JUnit/src/junit/tutorial/</strong> に格納しています。</p>
 
 ## 【１章：JUnitチュートリアル】  
 - 環境構築  
