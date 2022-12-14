@@ -20,4 +20,18 @@ public class CalculatorTest {
 		 assertTrue(expected == actual);
 	
 	}
+	
+	@Test
+    public void multiplyで5と7の乗算結果が取得できる() {
+        Calculator calc = new Calculator();
+        int expected = 35;
+        int actual = calc.multiply(5, 7);
+        assertTrue(expected == actual);
+    }
+	
+	@Test(expected = IllegalArgumentException.class)
+    public void divideで5と0のときIllegalArgumentExceptionを送出する() {
+        Calculator calc = new Calculator();
+        calc.divide(5, 0);
+    }
 }
