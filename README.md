@@ -83,6 +83,7 @@
     </td>
     <td>テストフィクスチャ</td> <td>ー</td>
 </table>
+
 - JUnitのテストパターン
   - 標準的なふるまいを検証するテスト（<strong>正常系</strong>）
   - 例外の創出を検証するテスト（<strong>異常系</strong>）
