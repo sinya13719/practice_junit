@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class FrameworksTest {
+public class FrameWorksTest {
 
 	@Test
 	public void test() {

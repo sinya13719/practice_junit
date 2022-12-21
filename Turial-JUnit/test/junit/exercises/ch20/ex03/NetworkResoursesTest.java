@@ -1,10 +1,10 @@
-package junit.exercises.ch18.ex01;
+package junit.exercises.ch20.ex03;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class StringUtilsTest {
+public class NetworkResoursesTest {
 
 	@Test
 	public void test() {

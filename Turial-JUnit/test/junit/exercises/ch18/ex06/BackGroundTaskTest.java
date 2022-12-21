@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class BackGroundTaskTest {
+public class BackgroundTaskTest {
 
 	@Test
 	public void test() {
