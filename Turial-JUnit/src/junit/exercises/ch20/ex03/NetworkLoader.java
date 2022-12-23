@@ -1,5 +1,10 @@
 package junit.exercises.ch20.ex03;
 
-public class NetworkLoader {
+import java.io.InputStream;
 
+public class NetworkLoader {
+    public InputStream getInput() {
+        // TODO 未実装
+        return null;
+    }
 }
