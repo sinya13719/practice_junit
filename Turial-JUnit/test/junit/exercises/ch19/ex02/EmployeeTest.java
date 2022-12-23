@@ -16,7 +16,7 @@ public class EmployeeTest {
     public void loadでEmplyoeeの一覧を取得できる() throws Exception {
         // SetUp
     	// input = nullになっている
-        InputStream input = EmployeeTest.class.getResourceAsStream("resourses/Employee.proprties");
+        InputStream input = EmployeeTest.class.getResourceAsStream("resourses/Employee.properties");
         // Exercise
         List<Employee> actual = Employee.load(input);
         // Verify
